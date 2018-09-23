@@ -13,6 +13,10 @@
     "build": "babel src --out-dir lib"
   },
   "author": "stickmy",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bloss/capricious.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.1.0",
