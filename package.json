@@ -1,0 +1,25 @@
+{
+  "name": "capricious",
+  "version": "1.0.0",
+  "description": "Make text change capricious",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "babel src --out-dir lib"
+  },
+  "author": "stickmy",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0"
+  }
+}
